@@ -1,0 +1,54 @@
+:root {
+  --color-magic: #9B5DE5;
+  --color-magic-dark: #7C3AED;
+  --color-fairy: #F15BB5;
+  --color-gold: #FFD23F;
+  --color-gold-dark: #E0A800;
+  --color-sky: #4CC9F0;
+  --color-dragon: #52B788;
+  --color-bg-top: #E0C3FC;
+  --color-bg-bottom: #8EC5FC;
+  --color-text: #3A2E5C;
+  --color-white: #FFFFFF;
+  --font-heading: 'Baloo 2', 'Comic Sans MS', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --shadow-card: 0 8px 20px rgba(58, 46, 92, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: linear-gradient(180deg, var(--color-bg-top) 0%, var(--color-bg-bottom) 100%);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--font-heading);
+  cursor: pointer;
+  border: none;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
